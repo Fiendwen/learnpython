@@ -1,0 +1,5 @@
+iperf.exe -c192.168.30.12 -p5001 -t 1000000 -u -i1
+
+
+iperf.exe -s -u -U -p5001 -i1
+
